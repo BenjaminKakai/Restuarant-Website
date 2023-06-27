@@ -1,0 +1,120 @@
+/* -------------------------------------------------------------------------- */
+/*                               HEADER SECTION                               */
+/* -------------------------------------------------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+header {
+  width: 100%;
+  height: 5rem;
+  background-color: black;
+  padding: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+header img {
+  width: 3.5rem;
+  height: 3.5rem;
+  align-self: center;
+}
+nav li,
+nav a {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.6rem;
+  color: white;
+}
+nav a:hover {
+  color: rgb(255, 208, 0);
+}
+#dealsNav {
+  font-size: 1.6rem;
+  border: 1px solid white;
+  padding: 6px 25px;
+}
+#dealsNav:hover {
+  background-color: rgb(0, 77, 128);
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                HERO SECTION                                */
+/* -------------------------------------------------------------------------- */
+
+.heroHeader img {
+  width: 50%;
+  height: auto;
+  margin-top: 4rem;
+  border-bottom: 4px solid black;
+  margin-bottom: 5rem;
+}
+.heroAbout {
+  width: 50%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+.heroAbout h3 {
+  font-size: 3vw;
+  margin-bottom: 1rem;
+}
+.heroAbout h4 {
+  font-size: 2vw;
+  margin-bottom: 1rem;
+}
+.heroAbout p, .heroAbout strong {
+  font-size: 1.5vw;
+}
+.heroAbout span {
+  font-size: 1.5vw;
+  color: rgb(175, 0, 0);
+  font-weight: 600;
+}
+.heroAbout a {
+  text-decoration: none;
+  color: red;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+.heroAbout a:hover {
+  color: blue;
+}
+/* -------------------------------------------------------------------------- */
+/*                                  SPECIALS                                  */
+/* -------------------------------------------------------------------------- */
+.specials {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.deal1,
+.deal2 {
+  width: 30%;
+  height: auto;
+  padding: .3rem;
+  margin-bottom: 1rem;
+  border-radius: 40px;
+  border-top: 3px solid black;
+}
+.deal1 {
+  margin-right: .5rem;
+  border-right: 3px solid black;
+}
+.deal2 {
+  margin-left: .5rem;
+  border-left: 3px solid black;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                               MENU SECTION                              */
+/* -------------------------------------------------------------------------- */
+
+.menu img {
+  width: 70%;
+  height: auto;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                    MEDIA                                   */
+/* -------------------------------------------------------------------------- */
